@@ -1,12 +1,9 @@
 # Documentação de Cenários de Teste (Formato Revisado)
-
-**Objetivo:** Documentar os cenários de teste (CRUD, Positivos e Negativos) para as rotinas do sistema descritas no documento "ExtensãoBIm2.pdf", seguindo o modelo de formatação solicitado.
-
 ---
 
-## 📦 **Rotina 1: Cadastro de Produtos (Inventário de Estoque)**
+## 📦 **Rotina 1: Cadastro de Produtos**
 
-**Descrição**: Esta rotina envolve o cadastro de produtos, que é a base para o controle de estoque e vendas.
+
 
 ### **1.1. Create (Criação)**
 
