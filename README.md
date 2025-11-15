@@ -1,6 +1,6 @@
 # Trabalho de Qualidade de Software - Extenção
 
-| Aluno | RA |
+| **Aluno** | **RA** |
 |:------|:---|
 | Guilherme Fernandes de Souza | 14539 |
 | João Felipe Bacarin da Silva | 13979 |
