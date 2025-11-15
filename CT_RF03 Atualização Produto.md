@@ -1,10 +1,38 @@
+## Cenário 03: Atualização de Produto.
 
-### **1.3. Update (Atualização)**
+### Caso de Teste 03: Atualização de Preço de Venda.
 
-*   **PROD-U-001** (Positivo): **Atualização de Preço de Venda**
-    *   **Pré-condição**: Produto criado com sucesso (PROD-C-001).
-    *   **Passos**: 1. Consultar e abrir o produto para edição. 2. Alterar o campo "Preço de Venda". 3. Clicar em "Salvar".
-    *   **Resultado Esperado**: O sistema deve exibir mensagem de sucesso e, ao consultar novamente, o novo preço deve estar atualizado.
+| ID       | Descrição                                                |
+| :------- | :------------------------------------------------------- |
+| C03-CT01 | Atualização de preço de venda dos produtos. |
+
+| **Pré-condições**                                             |
+| :------------------------------------------------------------ |
+| Ter um produto ja cadastrado no sistema. |
+
+| **Passos**                                                        |
+| :---------------------------------------------------------------- |
+| **DADO** que temos acesso ao sistema                              |
+| **E** acessamos "consultas/Produtos/Completa"                     |
+| **E** preenchemos o campo "Nome Produto"                          |
+| **E** clicarmos no botão "Executar"                               |
+| **E** abrimos produto que deseja editar                           |
+| **E** Clicamos em "Alterar"                                       |
+| **E** na aba "Preços" alteramos o valor do "Preço de venda 1"     |
+| **QUANDO** clicamos em "Salvar"                                   |
+| **ENTÃO** seremos redirecionados tela inicial de Cadastro de Produto|
+
+| **Critérios de aceitação**                                      |
+| :-------------------------------------------------------------- |
+| O redirecionamento para a tela inicial de Cadastro de Produto.  |
+
+| Resultado |
+| :---------------------------------------------------------------- |
+| Teste realizado | 
+| Teste realizado sem erros | 
+| **URL:** https://drive.google.com/file/d/1KDckXsgZ_VUjSyGERs_2xf0SdNjk6D7n/view?usp=drive_link |
+
+---
 
 *   **PROD-U-002** (Negativo): **Atualização com Campo Obrigatório Vazio**
     *   **Pré-condição**: Produto criado com sucesso (PROD-C-001).
