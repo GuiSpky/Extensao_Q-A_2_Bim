@@ -1,14 +1,23 @@
-# Documentação de Cenários de Teste (Formato Revisado)
----
-
 ## 📦 **Rotina 1: Cadastro de Produtos**
 
+| ID       | Descrição                                                |
+| :------- | :------------------------------------------------------- |
+| C01-CT01 | Criação de Produto com Dados Válidos. |
 
 
-### **1.1. Create (Criação)**
+| **Pré-condições**                                             |
+| :------------------------------------------------------------ |
+| Acesso à tela de Cadastro de Produtos. |
 
-*   **PROD-C-001** (Positivo): **Criação de Produto com Dados Válidos**
-    *   **Pré-condição**: Acesso à tela de Cadastro de Produtos.
+| **Passos**                                                        |
+| :---------------------------------------------------------------- |
+| **DADO** que estamos na página de inicial do Afa Sistema          |
+| **E** acessamos a pagina de Cadastro de produto                   |
+| **E** selecionamos a opção de "Novo"                              |
+| **E** preenchemos os campos "Nome do Produto" e "Grupo"           |
+| **QUANDO** selecionamos a opção de "Salvar"                       |
+| **ENTÃO** seremos redirecionados para a tela de Cadastro de produto com os dados do produto criado.|
+    
     *   **Passos**: 1. Preencher todos os campos obrigatórios (Código, Nome, Preço, etc.) com dados válidos. 2. Clicar em "Salvar".
     *   **Resultado Esperado**: O sistema deve exibir uma mensagem de sucesso e o produto deve ser listado na tela de consulta.
 
