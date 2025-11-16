@@ -1,5 +1,3 @@
-## Cenário 03: Atualização de Produto.
----
 | ID       | Descrição                                                |
 | :------- | :------------------------------------------------------- |
 | C03-CT01 | Atualização de preço de venda dos produtos. |
