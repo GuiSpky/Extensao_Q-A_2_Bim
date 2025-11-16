@@ -95,7 +95,7 @@
 
 | ID       | Descrição                                                |
 | :------- | :------------------------------------------------------- |
-| C05-CT03 | Venda com Produto sem Estoque. |
+| C05-CT04 | Venda com Produto sem Estoque. |
 
 | **Pré-condições**                                             |
 | :------------------------------------------------------------ |
@@ -116,8 +116,31 @@
 | :-------------------------------------------------------------- |
 | o sistema deve informar que não tem item em estoque.  |
 
+--- 
+
+| ID       | Descrição                                                |
+| :------- | :------------------------------------------------------- |
+| C05-CT05 | Gerar relatório de contas a receber |
+
+| **Pré-condições**                                             |
+| :------------------------------------------------------------ |
+| Ter vendas realizadas e em aberto. |
+
+| **Passos**                                                        |
+| :---------------------------------------------------------------- |
+| **DADO** que estamos na tela "Consulta/Financeiro/Contas a receber"|
+| **E** selecionamos "Consultar por" e "Tudas"                      |
+| **E** selecione "Executar"                                        |
+| **E** selecione "Imprimir"                                        |
+| **QUANDO** como o relatório aberto, selecione "Confirmar"         |
+| **ENTÃO** o sistema deve mostrar o relátorio de contas a receber  |
+
+| **Critérios de aceitação**                                      |
+| :-------------------------------------------------------------- |
+| o sistema deve mostrar o relátorio de contas a receber.  |
+
 | Resultado |
 | :---------------------------------------------------------------- |
 | Teste realizado | 
 | * Teste realizado, sistema realiza a venda e subtrai item do estoque, ficando netativo | 
-| * **URL:** https://drive.google.com/file/d/1jx2TZ8D0Di5OI_pALG_QmCG-TSo9YrdD/view?usp=drive_link | 
+| * **URL:** https://drive.google.com/file/d/11UCrsAOdF-NtplXndSoOyoJjXrf7kmtT/view?usp=drive_link | 
