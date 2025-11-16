@@ -1,8 +1,3 @@
-
-### **Cenário 02: Consulta de produtos**
-
-### Caso de Teste 01: Consulta de Produto Existente.
-
 | ID       | Descrição                                                |
 | :------- | :------------------------------------------------------- |
 | C02-CT01 | Consulta de produtos será realizada. |
