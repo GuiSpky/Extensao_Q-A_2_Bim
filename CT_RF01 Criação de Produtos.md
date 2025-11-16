@@ -1,5 +1,3 @@
-## 📦 **Rotina 1: Cadastro de Produtos**
-
 | ID       | Descrição                                                |
 | :------- | :------------------------------------------------------- |
 | C01-CT01 | Criação de Produto com Dados Válidos. |
